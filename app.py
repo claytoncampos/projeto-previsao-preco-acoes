@@ -20,7 +20,7 @@ n_dias = st.slider('Quantidade de dias de previsão', 30, 365)
 
 
 def pegar_dados_acoes():
-    path = '/home/clayton/Downloads/acoes.csv'
+    path = 'acoes.csv'
     return pd.read_csv(path, delimiter=';')
 
 
